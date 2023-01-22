@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="21249a05-e228-4aa5-90a2-4d1a72f63950" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioo.iml" afterDir="false" />
+    <list default="true" id="24a7cf11-7f08-4f26-ad2e-e6243a7a2fc1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hospital/Bed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hospital/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hospital/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/ApplicationInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patients/MedicalRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patients/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patients/Record.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestAddPatient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestDodajPacjentaDoPokoju.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestEditPatientsMedicalRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestGetFreeBed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestRemovePatient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestSearchPatientInHospital.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestTestu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Nurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Receptionist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +42,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Kh8nEXLfjUG7g6sbdiBryVz9iM" />
+  <component name="ProjectId" id="2KhdbRFnFksBoYUSFj96cqaRWsE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,19 +50,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "last_opened_file_path": "D:/Studia/sem 5/IO/ioo"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ApplicationInstance">
+  <component name="RunManager" selected="JUnit.TestAddPatient">
     <configuration name="ApplicationInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ApplicationInstance" />
       <module name="ioo" />
@@ -54,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddPatient.testAddPatientToBed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddPatient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioo" />
       <extension name="coverage">
         <pattern>
@@ -64,28 +80,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TestAddPatient" />
-      <option name="METHOD_NAME" value="testAddPatientToBed" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAddPatient" />
         <item itemvalue="Application.ApplicationInstance" />
-        <item itemvalue="JUnit.TestAddPatient.testAddPatientToBed" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="21249a05-e228-4aa5-90a2-4d1a72f63950" name="Changes" comment="" />
-      <created>1674415618689</created>
+      <changelist id="24a7cf11-7f08-4f26-ad2e-e6243a7a2fc1" name="Changes" comment="" />
+      <created>1674430820064</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674415618689</updated>
-      <workItem from="1674415620590" duration="547000" />
+      <updated>1674430820064</updated>
+      <workItem from="1674430821438" duration="349000" />
+      <workItem from="1674431183143" duration="80000" />
+      <workItem from="1674431309069" duration="51000" />
     </task>
     <servers />
   </component>
