@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="674bed77-e41d-4fc6-8768-4165d53cf0ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Testfit/TestAddPatientToRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/ApplicationInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ApplicationInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TestAddPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/TestAddPatientToRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TestDodajPacjentaDoPokoju.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TestTestu.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,20 +32,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KhfN3zvpWKSsAYdwazElmoRRw1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Studia/sem 5/ioo&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Studia/sem 5/ioo"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.TestAddPatient">
+}]]></component>
+  <component name="RunManager" selected="Application.ApplicationInstance">
     <configuration name="ApplicationInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ApplicationInstance" />
       <module name="ioo" />
@@ -50,16 +62,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddPatient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddPatientToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="Testfit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestAddPatient" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestAddPatientToRoom" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,8 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAddPatient" />
         <item itemvalue="Application.ApplicationInstance" />
+        <item itemvalue="JUnit.TestAddPatientToRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -82,6 +94,8 @@
       <updated>1674431692633</updated>
       <workItem from="1674431693873" duration="89000" />
       <workItem from="1674431860613" duration="343000" />
+      <workItem from="1674432251620" duration="284000" />
+      <workItem from="1674492173055" duration="6425000" />
     </task>
     <servers />
   </component>

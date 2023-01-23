@@ -1,6 +1,7 @@
 package Main;
 
 import Hospital.Department;
+import Hospital.Room;
 import Patients.MedicalRecord;
 import Patients.Patient;
 import Users.Doctor;
@@ -18,14 +19,10 @@ public class ApplicationInstance {
     public static ArrayList<Department> departments = new ArrayList<>();
 
     public static void main(String[] args) {
-        User user = new User("imie","nazwisko");
-        addDepartment(new Department(10,"Kardiologia"));
-        for (int i=0;i<10;i++){
-            departments.add(new Department(10,"Kardiologia"));
-        }
-        UI.StartMenu();
-        editPatientsMedicalRecord();
-
+        Room room = new Room(1);
+        Patient patient = new Patient("cos","test2",1,"testpesel","Wroclaw ul.test 1/2","AB",50,true);
+        room.addPatient(patient);
+        System.out.println(room.getBedByPatient(patient).getPatient().getName());
     }
 
     public static Patient getPatientById(int id){
