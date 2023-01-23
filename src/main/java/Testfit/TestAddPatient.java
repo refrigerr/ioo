@@ -3,11 +3,9 @@ package Testfit;
 import Hospital.Bed;
 import Hospital.Department;
 import Hospital.Room;
-import Main.ApplicationInstance;
 import Patients.Patient;
-import Users.Doctor;
 
-public class TestAddPatientToRoom {
+public class TestAddPatient {
 
     int bedsInRoom;
     int patientsInRoom;

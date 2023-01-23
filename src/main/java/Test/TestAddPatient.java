@@ -7,7 +7,7 @@ import Patients.Patient;
 
 import static org.junit.Assert.*;
 
-public class TestAddPatientToRoom {
+public class TestAddPatient {
 
 
 

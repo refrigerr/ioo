@@ -62,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddPatientToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddPatient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioo" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +71,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestAddPatientToRoom" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestAddPatient" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
