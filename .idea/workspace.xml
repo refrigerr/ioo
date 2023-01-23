@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a7cf11-7f08-4f26-ad2e-e6243a7a2fc1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/Bed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface/UI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/ApplicationInstance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patients/MedicalRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patients/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patients/Record.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestAddPatient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestDodajPacjentaDoPokoju.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestEditPatientsMedicalRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestGetFreeBed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestRemovePatient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestSearchPatientInHospital.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestTestu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/Doctor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/Nurse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/Receptionist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/User.java" beforeDir="false" />
+    <list default="true" id="674bed77-e41d-4fc6-8768-4165d53cf0ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +22,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2KhdbRFnFksBoYUSFj96cqaRWsE" />
+  <component name="ProjectId" id="2KhfN3zvpWKSsAYdwazElmoRRw1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Studia/sem 5/IO/ioo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studia/sem 5/ioo&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.TestAddPatient">
     <configuration name="ApplicationInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ApplicationInstance" />
@@ -95,14 +75,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24a7cf11-7f08-4f26-ad2e-e6243a7a2fc1" name="Changes" comment="" />
-      <created>1674430820064</created>
+      <changelist id="674bed77-e41d-4fc6-8768-4165d53cf0ac" name="Changes" comment="" />
+      <created>1674431692633</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674430820064</updated>
-      <workItem from="1674430821438" duration="349000" />
-      <workItem from="1674431183143" duration="80000" />
-      <workItem from="1674431309069" duration="51000" />
+      <updated>1674431692633</updated>
+      <workItem from="1674431693873" duration="89000" />
+      <workItem from="1674431860613" duration="343000" />
     </task>
     <servers />
   </component>
