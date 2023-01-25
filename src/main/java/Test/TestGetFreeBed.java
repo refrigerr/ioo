@@ -5,15 +5,18 @@ import Hospital.Room;
 import Main.ApplicationInstance;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static Main.ApplicationInstance.departments;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class TestGetFreeBed {
 
     @Test
     public void Department(){
         // coming soon...
+        Department department = new Department(12, "Diabetologia");
+        assertNotNull("Tworzenie oddzialu dziala", department.getRooms());
     }
 
     @Test
@@ -26,7 +29,10 @@ public class TestGetFreeBed {
     @Test
     public void testGetRooms(){
         Department department = new Department(10,"test");
-        assertNotNull("Znaleziono pokoje", department.getRooms());
+        ArrayList<Room> rooms = department.getRooms();
+        for(Room room: rooms){
+            assertNotNull(room);
+        }
     }
     @Test
     public void testGetBeds(){
