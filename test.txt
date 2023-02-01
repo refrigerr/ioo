@@ -1,0 +1,30 @@
+!define TEST_SYSTEM {slim}
+!path D:\studia\V sem\inżynieria oprogramowania\ioo\target\classes
+
+|TestGetBeds                                                                               |
+|department|rooms_inDepartment|departmentName|departmentName1|name  |testCheckBedAvability?|
+|10        |2                 |diabetologia  |psychiatria    |Michal|true                  |
+
+|TestGetBeds                                                                           |
+|department|rooms_inDepartment|departmentName|departmentName1|name  |findBedInHospital?|
+|10        |2                 |diabetologia  |psychiatria    |Michal|diabetologia      |
+
+
+|TestGetBeds                                                                               |
+|department|rooms_inDepartment|departmentName|departmentName1|name  |removeExistingPatient?|
+|10        |2                 |diabetologia  |psychiatria    |Michal|0                     |
+
+
+|TestGetBeds                                                                             |
+|department|rooms_inDepartment|departmentName|departmentName1|name  |testGetBedByPatient?|
+|10        |2                 |diabetologia  |psychiatria    |Michal|bed                 |
+
+
+|TestGetBeds                                                                       |
+|department|rooms_inDepartment|departmentName|departmentName1|name  |patientExists?|
+|10        |2                 |diabetologia  |psychiatria    |Michal|true          |
+
+
+|TestGetBeds                                                                          |
+|department|rooms_inDepartment|departmentName|departmentName1|name  |patientNotExists?|
+|10        |2                 |diabetologia  |psychiatria    |Michal|false            |
