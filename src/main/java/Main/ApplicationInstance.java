@@ -12,7 +12,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
 
-public class ApplicationInstance {
+public class
+
+ApplicationInstance {
     public static ArrayList<Patient> patients = new ArrayList<>();
     public static HashMap<Patient, MedicalRecord> medicalRecords = new HashMap<>();
 

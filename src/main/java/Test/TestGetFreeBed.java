@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static Main.ApplicationInstance.departmentExists;
 import static Main.ApplicationInstance.departments;
 import static org.junit.Assert.*;
 
@@ -14,9 +15,14 @@ public class TestGetFreeBed {
 
     @Test
     public void Department(){
-        // coming soon...
         Department department = new Department(12, "Diabetologia");
-        assertNotNull("Tworzenie oddzialu dziala", department.getRooms());
+        departments.add(department);
+        assertTrue(departmentExists(department));
+
+        // coming soon...
+/*        Department department = new Department(12, "Diabetologia");
+        departments.add(department);
+        assertNotNull("Tworzenie oddzialu dziala", department.getRooms());*/
     }
 
     @Test

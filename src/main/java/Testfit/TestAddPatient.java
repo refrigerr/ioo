@@ -5,7 +5,8 @@ import Hospital.Department;
 import Hospital.Room;
 import Patients.Patient;
 
-public class TestAddPatient {
+public class
+TestAddPatient {
 
     int bedsInRoom;
     int patientsInRoom;
